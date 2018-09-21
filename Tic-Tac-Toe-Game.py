@@ -1,10 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 20 19:17:02 2018
-
-@author: dimit
-"""
-
 from IPython.display import clear_output
 import random
 
