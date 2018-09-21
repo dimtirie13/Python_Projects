@@ -56,7 +56,7 @@ def player_choice(board,player):
     
     while position not in [1,2,3,4,5,6,7,8,9] or not space_check(board, position):
         try:
-            position = int(input('Player %s, choose your next position: (1-9) '%(player)))
+            position = int(input(f'Player {player}, choose your next position: (1-9) '))
         except:
             print("I'm sorry, please try again.")
         
@@ -75,7 +75,7 @@ while True:
     
     toggle = random_player()
     player = players[toggle]
-    print('For this round, Player %s will go first!' %(player))
+    print(f'For this round, Player {player} will go first!')
     
     game_on = True
     input('Hit Enter to continue')
@@ -104,34 +104,5 @@ while True:
     
     if not replay():
         break
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
 
 
