@@ -1,9 +1,3 @@
-# -*- coding: utf-8 -*-
-"""
-Created on Thu Sep 27 23:04:47 2018
-
-@author: dimit
-"""
 
 # GLOBAL VARIABLES + imports
 
