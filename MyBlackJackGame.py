@@ -183,8 +183,7 @@ def push(player,dealer):
 
 while True:
     # Print an opening statement
-    print("WELCOME to Dimitri's Blackjack GAME! Get as close to 21 without going over!\
-          Aces count as 1 or 11")
+    print("WELCOME to Dimitri's Blackjack GAME! Get as close to 21 without going over!Aces count as 1 or 11 and you will start with $100")
 
     
     # Create & shuffle the deck, deal two cards to each player
